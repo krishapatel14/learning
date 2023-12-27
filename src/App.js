@@ -52,7 +52,7 @@ function App() {
         <Route path='/contactus/person/:id' element={<ContactPerson></ContactPerson>}></Route>
         <Route path='/*' element={<Error404></Error404>}></Route>
         <Route path='/storage' element={<Storage/>}></Route>
-        <Route path='/weather' element={<Weather/>}></Route>
+        {/* <Route path='/weather' element={<Weather/>}></Route> */}
         <Route path='/apidemo' element={<ApiDemo/>}></Route>
         <Route path='/apidemo1' element={<ApiDemo1/>}></Route>
         <Route path='/apidemo2' element={<ApiDemo2/>}></Route>

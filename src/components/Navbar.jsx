@@ -20,9 +20,9 @@ export const Navbar = () => {
       <li class="nav-item">
         <Link class="nav-link" to="/storage">storage</Link>
       </li>
-      <li class="nav-item">
+      {/* <li class="nav-item">
         <Link class="nav-link" to="/weather">weather</Link>
-      </li>
+      </li> */}
       <li class="nav-item">
         <Link class="nav-link" to="/apidemo">api demo</Link>
       </li>
